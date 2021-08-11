@@ -22,8 +22,8 @@ Once the script worked on multiple pages, I created a loop that would loop over 
 
 And lastly, I wrote the output to a txt file and formatted it some so it would be easy to read and verify against the xlsx from my technical SEO team.
 
-In retrospect, I should have output to an xlsx file and formatted each row so that it would be easier for my web developer to import into the SQL database. 
+Once I had my output file, I passed it over to my web develoment team to make a new custom post type that had the script built into the page template so when we import the product ID into the SQL database as a custom field, the page would render the content and it would be editable from the admin of the site.
 
-I'm sure there are more efficient ways to write this script, however, I wanted to not spend more than 4h. I knew that if it took longer to develop a script to complete this task that it would take in man hours to do manually, the script would not be doing it's job. This practical script was just what we needed, after all, it took maybe 3 mins to run. 
+In retrospect, I should have output to an xlsx file and formatted each row so that it would be easier for my web developer to import into the SQL database. Also, this method doesn't replace a standard shopping cart. Setting up the pages so that only the product ID is in the database means we can't efficiently setup a standard shop/catalog page with thumbnails that the user can use to browse the site and easily choose between similar products. I'll update this when we have decided on a solution to this issue.
 
-It's more important that it be practical than elegant. Elegance will come. Elegance isn't always profitable.
+I'm sure there are more efficient ways to write this script, however, I wanted to not spend more than 4h. I knew that if it took longer to develop a script to complete this task manually, the script would not be doing it's. After all, it took maybe 3 mins to run. 
