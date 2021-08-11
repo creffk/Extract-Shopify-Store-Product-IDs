@@ -27,3 +27,5 @@ Once I had my output file, I passed it over to my web develoment team to make a 
 In retrospect, I should have output to an xlsx file and formatted each row so that it would be easier for my web developer to import into the SQL database. Also, this method doesn't replace a standard shopping cart. Setting up the pages so that only the product ID is in the database means we can't efficiently setup a standard shop/catalog page with thumbnails that the user can use to browse the site and easily choose between similar products. I'll update this when we have decided on a solution to this issue.
 
 I'm sure there are more efficient ways to write this script, however, I wanted to not spend more than 4h. I knew that if it took longer to develop a script to complete this task manually, the script would not be doing it's. After all, it took maybe 3 mins to run. 
+
+main.py was  done in PyCharm.
